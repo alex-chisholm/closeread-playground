@@ -1,0 +1,110 @@
+---
+title: 2024 Year in Review
+format:
+  closeread-html:
+    debug-mode: false
+    remove-header-space: true
+    cr-style:
+      narrative-background-color-overlay: "#1a1a2e"
+      narrative-text-color-overlay: "#ffffff"
+      narrative-font-family: "Georgia, serif"
+      narrative-font-size: "20px"
+      narrative-border-radius: "15px"
+      section-background-color: "#0f3460"
+      narrative-sidebar-width: "1fr"
+---
+
+# 2024 Year in Review
+
+:::{.cr-section layout="overlay-center"}
+Welcome to the journey through 2024! Scroll down to relive the highlights month by month.
+
+:::{#intro .sticky}
+![Fireworks](https://via.placeholder.com/800x400/0a0a23/FFFFFF?text=2024+Year+in+Review)
+An exciting year filled with innovation, creativity, and resilience!
+:::
+:::
+
+:::{.cr-section layout="sidebar-left"}
+## January: New Beginnings
+
+:::{.trigger focus-on="january-sticky"}
+New possibilities took shape as the year began.
+:::
+
+:::{#january-sticky .sticky}
+**Highlights:**
+- Global AI summit sets the tone for tech innovation.
+- Record-breaking snowfall in North America sparks creativity in snow art.
+![January Snow Art](https://via.placeholder.com/800x400/0a0a23/FFFFFF?text=Snow+Art)
+:::
+:::
+
+:::{.cr-section layout="sidebar-right"}
+## February: Love and Culture
+
+:::{.trigger focus-on="february-sticky"}
+Romance and cultural celebrations filled February!
+:::
+
+:::{#february-sticky .sticky}
+**Top Moments:**
+- Virtual Valentine's celebrations in the metaverse.
+- Lunar New Year festivities embraced technology like never before.
+![Lunar New Year](https://via.placeholder.com/800x400/0a0a23/FFFFFF?text=Lunar+New+Year)
+:::
+:::
+
+:::{.cr-section layout="overlay-left"}
+## March: Spring Blooms
+
+:::{.trigger focus-on="march-sticky"}
+Nature's beauty came alive with breathtaking scenes of renewal.
+:::
+
+:::{#march-sticky .sticky}
+![Spring Blossoms](https://via.placeholder.com/800x400/0a0a23/FFFFFF?text=Spring+Blossoms)
+
+- People flocked to botanical gardens worldwide.
+- Innovations in sustainable gardening tools gained momentum.
+:::
+:::
+
+:::{.cr-section layout="overlay-right"}
+## April: Protecting Our Planet
+
+:::{.trigger focus-on="april-sticky"}
+Earth Day 2024 captured imaginations globally.
+:::
+
+:::{#april-sticky .sticky}
+```{r}
+plot(1:10, 1:10, col = "green", main = "Earth Day: Sustainability Impact")
+```
+
+Major breakthroughs in clean energy showcased at the summit. 
+
+:::
+:::
+
+
+:::{.cr-section layout="overlay-center"}
+
+## December: Reflections and Aspirations
+
+:::{.trigger focus-on="december-sticky"} 
+
+Reflecting on achievements and looking forward to 2025. 
+
+:::
+
+:::{#december-sticky .sticky} 
+### Looking Back:
+
+Reflecting on achievements, innovations, and challenges of 2024.  
+Communities came together to celebrate hope for the future.  
+
+[Hope shines brightly as we look forward to 2025]{#cr-wishes} 
+
+:::
+:::
