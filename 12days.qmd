@@ -1,0 +1,96 @@
+---
+title: 12 Days of Scrollable Christmas
+format:
+  closeread-html:
+    debug-mode: false
+    remove-header-space: true
+    cr-style:
+      narrative-background-color-overlay: "#b22222" # Festive red for the overlay background
+      narrative-text-color-overlay: "#ffffff"      # White text for contrast
+      narrative-font-family: "Georgia, serif"      # Elegant serif font
+      narrative-font-size: "20px"                  # Readable size
+      narrative-border-radius: "10px"              # Slightly rounded corners
+      section-background-color: "#006400"          # Deep green for the section background
+      narrative-sidebar-width: "1fr"               # Default width for sidebar
+      narrative-text-color-sidebar: "#ffffff"      # White text in sidebar layouts
+      narrative-background-color-sidebar: "#b22222" # Matching red for sidebar layouts
+---
+
+:::{.cr-section layout="overlay-center"}
+
+## The 12 Days of Scrollable Christmas
+
+:::{.trigger focus-on="day1-sticky"} 
+🎵 Day 1: A Partridge in a Pear Tree  
+A year begins with a singular moment of hope.
+:::
+
+:::{#day1-sticky .sticky style="background: #f7e8d6; color: #4b5320;"} 
+### A Partridge in a Pear Tree
+Symbolizing the start of new beginnings. 🌱  
+**Highlight:** Major global achievements in sustainability and conservation efforts.  
+*Interactive Chart:* [Global Tree Planting Efforts](#)
+:::
+
+:::{.trigger focus-on="day2-sticky"} 
+🎵 Day 2: Two Turtle Doves  
+Connection and harmony prevail.
+:::
+
+:::{#day2-sticky .sticky style="background: #e0f7fa; color: #004d40;"} 
+### Two Turtle Doves
+Representing love and partnership. ❤️🕊️  
+**Highlight:** Breakthroughs in international diplomacy and collaboration.  
+*Data Point:* Increase in global peace agreements in 2024.
+:::
+
+:::{.trigger focus-on="day3-sticky"} 
+🎵 Day 3: Three French Hens  
+Celebrating abundance and creativity.
+:::
+
+:::{#day3-sticky .sticky style="background: #fff7bc; color: #5d4037;"} 
+### Three French Hens
+Symbolizing sustenance and generosity. 🍗🥖  
+**Highlight:** Advances in food technology and agricultural production.  
+*Data Visualization:* [Yearly Crop Yields](#)
+:::
+
+:::{.trigger focus-on="day4-sticky"} 
+🎵 Day 4: Four Calling Birds  
+Voices of the people shape the year.
+:::
+
+:::{#day4-sticky .sticky style="background: #dcedc8; color: #33691e;"} 
+### Four Calling Birds
+Representing communication and advocacy. 📣🐦  
+**Highlight:** Growth in digital activism and online campaigns.  
+*Word Cloud:* [Top Advocacy Hashtags](#)
+:::
+
+:::{.trigger focus-on="day5-sticky"} 
+🎵 Day 5: Five Golden Rings  
+A moment to shine brightly.
+:::
+
+:::{#day5-sticky .sticky style="background: #fffde7; color: #bf360c;"} 
+### Five Golden Rings
+Symbolizing wealth and prosperity. 💍✨  
+**Highlight:** Notable economic milestones of 2024.  
+*Interactive Graph:* [Global Market Trends](#)
+:::
+
+<!-- Repeat similar structures for Days 6 through 12 -->
+
+:::{.trigger focus-on="day12-sticky"} 
+🎵 Day 12: Twelve Drummers Drumming  
+Closing the year with rhythm and celebration.
+:::
+
+:::{#day12-sticky .sticky style="background: #eceff1; color: #37474f;"} 
+### Twelve Drummers Drumming
+Symbolizing energy and unity. 🥁🎉  
+**Highlight:** Recapping the year’s greatest celebrations and cultural milestones.  
+*Video Highlight Reel:* [2024 in Review](#)
+:::
+:::
