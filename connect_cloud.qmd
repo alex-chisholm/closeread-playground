@@ -27,7 +27,13 @@ format:
 
 ![](images/cc_white2.svg)
 
-Let's learn about Posit Connect Cloud and Closeread <br><br> `:::{.cr-section layout="overlay-center"}`
+:::{#cr-question}
+
+You're a data professional, not an software engineer. 
+
+:::
+
+@cr-question Shouldn't it be easier to share your work?
 
 :::
 
@@ -35,13 +41,13 @@ Let's learn about Posit Connect Cloud and Closeread <br><br> `:::{.cr-section la
 
 :::{#cr-adventure }
 
-Choose your adventure <br><br> `:::{.cr-section layout="sidebar-right"}`
+With Connect Cloud, it is.
+
+![](images/cc-home.png){width="75%"}
 
 :::
 
 @cr-adventure
-
-`@cr-adventure`
 
 ::: {layout-ncol=3} 
 
@@ -50,6 +56,8 @@ Choose your adventure <br><br> `:::{.cr-section layout="sidebar-right"}`
 [Supported frameworks](#frameworks){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
 [Deployment process](#deployment){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
+
+[More information](#info){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
 [Sign up for free!](https://connect.posit.cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
@@ -70,15 +78,11 @@ Supported Frameworks
 
 :::{#cr-r }
 
-R frameworks <br><br> `:::{.cr-section layout="sidebar-right"}`
+R
 
 :::
 
 @cr-r
-
-`@cr-r`
-
-
 
 ![](images/logo-shiny.svg)
 ![](images/logo-quarto.svg)
@@ -96,23 +100,16 @@ R frameworks <br><br> `:::{.cr-section layout="sidebar-right"}`
 
 :::{#cr-python }
 
-Python frameworks <br><br> `:::{.cr-section layout="sidebar-right"}`
+Python
 
 :::
 
 @cr-python
 
-`@cr-python`
-
-
-
 ![](images/logo-streamlit.svg)
 ![](images/logo-shiny.svg)
 ![](images/logo-dash.svg)
 ![](images/logo-bokeh.svg)
-
-
-
 
 :::
 
@@ -121,31 +118,17 @@ Python frameworks <br><br> `:::{.cr-section layout="sidebar-right"}`
 <!-- deployment section -->
 :::{.cr-section layout="overlay-center"}
 
+:::{#cr-github}
 
-:::{#cr-github }
 ![](images/github-mark-white.png)
+
 :::
+
+
 
 Deployment Process @cr-github
 
 In the Alpha release, the only way to deploy content is by storing your code in a public GitHub repository. 
-
-:::
-
-
-:::{.cr-section layout="sidebar-left"}
-
-:::{#cr-why }
-
-Why? <br><br> `:::{.cr-section layout="sidebar-right"}`
-
-:::
-
-@cr-why
-
-* Best practice for code-first data science
-* No need to change your underlying code
-* Faster iteration
 
 
 :::
@@ -155,17 +138,18 @@ Why? <br><br> `:::{.cr-section layout="sidebar-right"}`
 
 :::{#cr-python-deploy }
 
-Python Deployments <br><br> `:::{.cr-section layout="sidebar-right"}`
+Python Deployments
+
 
 :::
 
 @cr-python-deploy
 
-Your code and a requirements.txt file
+**What do you need?** Your code and a *requirements.txt* file.
 
 Option 1: Capture your entire project environment <br><br> `pip freeze > requirements.txt`
 
-Option 2: Create a requirements.txt file and add the required packages line by line, with or without specific package versions.
+Option 2: Create a requirements.txt file and add the required packages line by line, with or without specific versions.
 
 Read more about Python dependencies in the [Connect Cloud docs](https://docs.posit.co/connect-cloud/how-to/python/dependencies.html)
 
@@ -177,37 +161,54 @@ Read more about Python dependencies in the [Connect Cloud docs](https://docs.pos
 
 :::{#cr-r-deploy }
 
-R Deployments <br><br> `:::{.cr-section layout="sidebar-right"}`
+R Deployments
 
 :::
 
 @cr-r-deploy
 
-Your code and a manifest.json file
+**What do you need?** Your code and a *manifest.json* file.
 
-Create it with the rsconnect package and run `rsconnect::writeManifest()`
+Create it with `rsconnect::writeManifest()`
 
 Read more about R dependencies in the [Connect Cloud docs](https://docs.posit.co/connect-cloud/how-to/r/dependencies.html)
 
 :::
 
 
+:::{.cr-section layout="overlay-center"}
 
+![](images/cc_white2.svg)
 
-<hr>
+:::{#cr-cta}
+
+Worry about your code, not your infrastructure.
+
+:::
+
+@cr-cta Create a free account today!
+
+:::
+
 <!-- Resources -->
 
-# More Connect Cloud Resources
+# {#info}
+
 ::: {layout-ncol=3} 
 
 
 
-[Docs](https://docs.posit.co/connect-cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
+[Read the Docs](https://docs.posit.co/connect-cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
-[Community](https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
+[Visit the Community](https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
 [Sign up for free!](https://connect.posit.cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"}
 
+:::
+
+
+::: {style="font-size: 75%;"}
+[Alex Chisholm](https://bsky.app/profile/alex-chisholm.bsky.social) via Quarto and Closeread | December 2024
 :::
 
 

@@ -23,19 +23,19 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="allthings_files/libs/clipboard/clipboard.min.js"></script>
-<script src="allthings_files/libs/quarto-html/quarto.js"></script>
-<script src="allthings_files/libs/quarto-html/popper.min.js"></script>
-<script src="allthings_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="allthings_files/libs/quarto-html/anchor.min.js"></script>
-<link href="allthings_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="allthings_files/libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="allthings_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="allthings_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="allthings_files/libs/bootstrap/bootstrap-e19dc0c07aeef78048e587c3f1edba7a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="allthings_files/libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
-<script src="allthings_files/libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
-<script src="allthings_files/libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
+<script src="connect_cloud_files/libs/clipboard/clipboard.min.js"></script>
+<script src="connect_cloud_files/libs/quarto-html/quarto.js"></script>
+<script src="connect_cloud_files/libs/quarto-html/popper.min.js"></script>
+<script src="connect_cloud_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="connect_cloud_files/libs/quarto-html/anchor.min.js"></script>
+<link href="connect_cloud_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="connect_cloud_files/libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="connect_cloud_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="connect_cloud_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="connect_cloud_files/libs/bootstrap/bootstrap-e19dc0c07aeef78048e587c3f1edba7a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="connect_cloud_files/libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
+<script src="connect_cloud_files/libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
+<script src="connect_cloud_files/libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta cr-debug-mode="false">
 <meta cr-remove-header-space="true">
@@ -52,17 +52,17 @@ ul.task-list li input[type="checkbox"] {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-section-background-color: #447099;
---cr-narrative-background-color-overlay: #419599;
---cr-narrative-text-color-overlay: #ffffff;
---cr-narrative-sidebar-width: 1fr;
---cr-narrative-background-color-sidebar: #ffffff;
---cr-narrative-border-radius: 15px;
---cr-poem-font-family: Arial, serif;
---cr-narrative-font-size: 20px;
---cr-narrative-overlay-max-width: 600px;
+          --cr-narrative-background-color-overlay: #419599;
 --cr-narrative-outer-margin: 25px;
+--cr-narrative-text-color-overlay: #ffffff;
+--cr-section-background-color: #447099;
+--cr-narrative-sidebar-width: 1fr;
+--cr-narrative-font-size: 20px;
 --cr-narrative-font-family: Arial, serif;
+--cr-narrative-background-color-sidebar: #ffffff;
+--cr-poem-font-family: Arial, serif;
+--cr-narrative-overlay-max-width: 600px;
+--cr-narrative-border-radius: 15px;
 --cr-narrative-text-color-sidebar: #000000;
         }
       </style>
@@ -94,15 +94,17 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/cc_white2.svg" class="img-fluid"></p>
 </div>
 </div>
-<div class="trigger">
+<div class="trigger new-trigger" data-focus-on="cr-question">
 <div class="narrative">
-<p>Let’s learn about Posit Connect Cloud and Closeread <br><br> <code>:::{.cr-section layout="overlay-center"}</code></p>
+<p>Shouldn’t it be easier to share your work?</p>
 </div>
 </div>
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
-
+<div id="cr-question" class="sticky">
+<p>You’re a data professional, not an software engineer.</p>
+</div>
 </div>
 </div>
 </div>
@@ -113,11 +115,6 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </div>
-<div class="trigger">
-<div class="narrative">
-<p><code>@cr-adventure</code></p>
-</div>
-</div>
 <div>
 
 </div>
@@ -126,6 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <p><a href="#frameworks" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Supported frameworks</a></p>
 <p><a href="#deployment" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Deployment process</a></p>
+<p><a href="#info" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">More information</a></p>
 <p><a href="https://connect.posit.cloud/" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Sign up for free!</a></p>
 </div>
 </div>
@@ -134,7 +132,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-adventure" class="sticky">
-<p>Choose your adventure <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
+<p>With Connect Cloud, it is.</p>
+<p><img src="images/cc-home.png" class="img-fluid" style="width:75.0%"></p>
 </div>
 </div>
 </div>
@@ -162,11 +161,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="trigger">
 <div class="narrative">
-<p><code>@cr-r</code></p>
-</div>
-</div>
-<div class="trigger">
-<div class="narrative">
 <p><img src="images/logo-shiny.svg" class="img-fluid"> <img src="images/logo-quarto.svg" class="img-fluid"> <img src="images/logo-rmarkdown.svg" class="img-fluid"></p>
 </div>
 </div>
@@ -174,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-r" class="sticky">
-<p>R frameworks <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
+<p>R</p>
 </div>
 </div>
 </div>
@@ -188,11 +182,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="trigger">
 <div class="narrative">
-<p><code>@cr-python</code></p>
-</div>
-</div>
-<div class="trigger">
-<div class="narrative">
 <p><img src="images/logo-streamlit.svg" class="img-fluid"> <img src="images/logo-shiny.svg" class="img-fluid"> <img src="images/logo-dash.svg" class="img-fluid"> <img src="images/logo-bokeh.svg" class="img-fluid"></p>
 </div>
 </div>
@@ -200,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-python" class="sticky">
-<p>Python frameworks <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
+<p>Python</p>
 </div>
 </div>
 </div>
@@ -227,31 +216,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="cr-section cr-column-screen sidebar-left">
-<div class="narrative-col">
-<div class="trigger new-trigger" data-focus-on="cr-why">
-<div class="narrative">
-
-</div>
-</div>
-<div class="trigger">
-<div class="narrative">
-<ul>
-<li>Best practice for code-first data science</li>
-<li>No need to change your underlying code</li>
-<li>Faster iteration</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sticky-col">
-<div class="sticky-col-stack">
-<div id="cr-why" class="sticky">
-<p>Why? <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
-</div>
-</div>
-</div>
-</div>
 <!-- python deployments -->
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
@@ -262,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="trigger">
 <div class="narrative">
-<p>Your code and a requirements.txt file</p>
+<p><strong>What do you need?</strong> Your code and a <em>requirements.txt</em> file.</p>
 </div>
 </div>
 <div class="trigger">
@@ -272,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="trigger">
 <div class="narrative">
-<p>Option 2: Create a requirements.txt file and add the required packages line by line, with or without specific package versions.</p>
+<p>Option 2: Create a requirements.txt file and add the required packages line by line, with or without specific versions.</p>
 </div>
 </div>
 <div class="trigger">
@@ -284,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-python-deploy" class="sticky">
-<p>Python Deployments <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
+<p>Python Deployments</p>
 </div>
 </div>
 </div>
@@ -299,12 +263,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="trigger">
 <div class="narrative">
-<p>Your code and a manifest.json file</p>
+<p><strong>What do you need?</strong> Your code and a <em>manifest.json</em> file.</p>
 </div>
 </div>
 <div class="trigger">
 <div class="narrative">
-<p>Create it with the rsconnect package and run <code>rsconnect::writeManifest()</code></p>
+<p>Create it with <code>rsconnect::writeManifest()</code></p>
 </div>
 </div>
 <div class="trigger">
@@ -316,30 +280,53 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-r-deploy" class="sticky">
-<p>R Deployments <br><br> <code>:::{.cr-section layout="sidebar-right"}</code></p>
+<p>R Deployments</p>
 </div>
 </div>
 </div>
 </div>
-<hr>
+<div class="cr-section cr-column-screen overlay-center">
+<div class="narrative-col">
+<div class="trigger">
+<div class="narrative">
+<p><img src="images/cc_white2.svg" class="img-fluid"></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-cta">
+<div class="narrative">
+<p>Create a free account today!</p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-cta" class="sticky">
+<p>Worry about your code, not your infrastructure.</p>
+</div>
+</div>
+</div>
+</div>
 <!-- Resources -->
-<section id="more-connect-cloud-resources" class="level1">
-<h1>More Connect Cloud Resources</h1>
+<section id="info" class="level1">
+<h1></h1>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<p><a href="https://docs.posit.co/connect-cloud/" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Docs</a></p>
+<p><a href="https://docs.posit.co/connect-cloud/" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Read the Docs</a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<p><a href="https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Community</a></p>
+<p><a href="https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Visit the Community</a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <p><a href="https://connect.posit.cloud/" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Here's a tooltip">Sign up for free!</a></p>
 </div>
 </div>
+</div>
+<div style="font-size: 75%;">
+<p><a href="https://bsky.app/profile/alex-chisholm.bsky.social">Alex Chisholm</a> via Quarto and Closeread | December 2024</p>
 </div>
 </section>
 
@@ -767,5 +754,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="allthings_files/libs/quarto-html/zenscroll-min.js"></script>
+<script src="connect_cloud_files/libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
