@@ -186,7 +186,7 @@ Active Users
 
 ::::{.cr-section}
 
-20% of users intend to only **publish documents**. <br><br> Quarto is the most common framework used. @cr-chart-docs
+13% of users intend to only **publish documents**. <br><br> Quarto is the most common framework used. @cr-chart-docs
 
 
 
@@ -226,7 +226,7 @@ ggplot(mydf, aes(x = reorder(app_mode, desc(freq)), y = freq, fill = app_type, a
 ```
 :::
 
-15% intend to only **deploy applications**. <br><br> Shiny for R and Python lead the way. @cr-chart-apps
+26% intend to only **deploy applications**. <br><br> Shiny for R and Python lead the way. @cr-chart-apps
 
 :::{#cr-chart-apps}
 ```{r}
@@ -244,7 +244,7 @@ ggplot(mydf, aes(x = reorder(app_mode, desc(freq)), y = freq, fill = app_type, a
 ```
 :::
 
-The majority will create both data applications and documents. <br><br> **What will you share with the world?** <br><br> [Create Your Account](https://connect.posit.cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"} @cr-chart-all
+The majority (60%) will create both data applications and documents. <br><br> **What will you share with the world?** <br><br> [Create Your Account](https://connect.posit.cloud/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Here's a tooltip"} @cr-chart-all
 
 :::{#cr-chart-all}
 ```{r}
